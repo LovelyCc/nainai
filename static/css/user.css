@@ -1,0 +1,116 @@
+.user-main-left{
+    width: 200px;
+    min-height: 450px;
+    border: 1px solid #c0c0c0;
+}
+
+.user-main-right{
+    width: 966px;
+    border: 1px solid #c0c0c0;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.user-main-right p.title{
+    height: 35px;
+    line-height: 35px;
+    margin: 0 5px;
+    border-bottom: 1px solid #EC2F2F;
+    font-size: 16px;
+    padding-left: 10px;
+    color: rgb(119,119,119);
+}
+
+.user-main-left>h3{
+    width: 100%;
+    height: 49px;
+    line-height: 49px;
+    background-color: #D61515;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    font-weight: normal;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.user-main-left li{
+    font-size: 14px;
+}
+
+.user-main-left li a{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+    border-bottom: 1px solid #c0c0c0;
+    text-decoration: none;
+}
+
+.user-main-left li a:hover{
+    color: #E20E22;
+}
+
+.user-main-left li a:hover span.down{
+    border-top-color: #E20E22;
+}
+
+.user-main-left li a:hover span.right{
+    border-left-color: #E20E22;
+}
+
+.user-main-left .first-title{
+    padding-left: 45px;
+}
+
+.user-main-left .first-title:hover{
+    background-color: #eee;
+}
+
+.user-main-left .second-list a{
+    padding-left: 50px;
+    font-size: 12px;
+}
+
+.user-main-left .first-title span.down {
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    left: 4px;
+    width: 0;
+    border: 4px solid transparent;
+    border-top-color: #666;
+}
+
+.user-main-left .first-title span.right {
+    display: inline-block;
+    position: relative;
+    top: 0;
+    left: 6px;
+    width: 0;
+    border: 4px solid transparent;
+    border-left-color: #666;
+}
+
+.user-main-left .router-link-active{
+    color: #E20E22;
+    font-weight: 600;
+}
+
+div.input-box{
+    padding: 10px 0;
+}
+
+.input-label{
+    display: inline-block;
+    width: 170px;
+    line-height: 38px;
+    text-align: right;
+    color: #777;
+}
+.input-label .required{
+    color: #f00;
+}
+
+input[type='text']:disabled{
+    background-color: rgb(235, 235, 228);
+}

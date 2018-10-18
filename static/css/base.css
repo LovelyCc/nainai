@@ -1,0 +1,66 @@
+body {
+    font-family: 微软雅黑;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.float-l {
+    float: left;
+}
+
+.float-r {
+    float: right;
+}
+
+.float-clear:after {
+    content: "";
+    width: 0;
+    display: block;
+    clear: both;
+    overflow: hidden;
+}
+
+.float-clear {
+    zoom: 1;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+input.default, select.default {
+    width: 252px;
+    height: 37px;
+    border: 1px solid #ccc;
+    padding: 0 6px;
+    color: #777;
+    background-color: #fff;
+    font-size: 13px;
+}
+
+button.default {
+    width: 120px;
+    height: 35px;
+    line-height: 35px;
+    background-color: #d61515;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 200px;
+}
+
